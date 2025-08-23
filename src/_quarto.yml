@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: ../docs
+
+engines: ['julia']
+
+website:
+  title: "CITC 1321: A+ Hardware"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Presentations
+        href: presentations/index.qmd
+      - text: Documents
+        href: docs/index.qmd
+      - text: Resources
+        href: resources/index.qmd
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: css/quarto-pstcc.css
+    code-fold: true
+    toc: true
+
+
+

@@ -1,0 +1,18 @@
+---
+title: "About"
+---
+
+This site contains the course materials for the CITC 1321 A+ Hardware course taught by Professor Charles Nelson.
+
+## Contact Information
+
+**Chuck Nelson**<br>
+Adjunct Professor<br>
+Pellissippi State Community College<br>
+10915 Hardin Valley Road<br>
+Knoxville, TN 37933<br>
+Email: [chnelson@pstcc.edu](mailto:chnelson@pstcc.edu)<br>
+Phone: [(650) 469-3519](tel:+16504693519)<br>
+Microsoft Teams: [https://teams.microsoft.com/meet](https://teams.microsoft.com/meet/2686443596174?p=dAjVIeCQyaNLL8QItl)
+
+.

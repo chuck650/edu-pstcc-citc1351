@@ -1,0 +1,5 @@
+---
+title: "CITC 1321: A+ Hardware"
+---
+
+This is the A+ Hardware course aught by Professor Chuck Nelson.  Here you'll find all the course materials needed to complete the course and achieve the learning objectives as specified in course syllabus.

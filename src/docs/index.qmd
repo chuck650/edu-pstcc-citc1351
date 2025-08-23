@@ -1,0 +1,6 @@
+---
+title: "Course Documents"
+listing:
+  contents: "."
+  type: default
+---

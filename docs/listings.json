@@ -1,0 +1,26 @@
+[
+  {
+    "listing": "/resources/videos.html",
+    "items": []
+  },
+  {
+    "listing": "/presentations/index.html",
+    "items": [
+      "/presentations/01_Introduction.html"
+    ]
+  },
+  {
+    "listing": "/docs/index.html",
+    "items": [
+      "/docs/citc_1321_mindtap_access.html",
+      "/docs/citc_1321_course_projec.html",
+      "/docs/citc_1321_syllabus.html"
+    ]
+  },
+  {
+    "listing": "/resources/index.html",
+    "items": [
+      "/resources/videos.html"
+    ]
+  }
+]

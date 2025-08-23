@@ -1,0 +1,6 @@
+---
+title: "Supplemental Materials"
+listing:
+  contents: "./*.qmd"
+  type: default
+---

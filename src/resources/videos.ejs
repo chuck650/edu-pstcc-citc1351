@@ -1,0 +1,13 @@
+<% for (const item of items) { %>
+<div class="video-container">
+  <h2><a href="<%- item.url %>"><%= item.title %></a></h2>
+  <p><%= item.description %></p>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/<%- item.video_id %>"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
+</div>
+<% } %>

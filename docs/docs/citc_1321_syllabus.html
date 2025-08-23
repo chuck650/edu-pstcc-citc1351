@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Chuck Nelson">
+
+<title>Course Syllabus – CITC 1321: A+ Hardware</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b1527d6dab3c1d2528611d399e709420.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../css/quarto-pstcc.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">CITC 1321: A+ Hardware</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../presentations/index.html"> 
+<span class="menu-text">Presentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../docs/index.html"> 
+<span class="menu-text">Documents</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../resources/index.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#citc-1321-course-syllabus" id="toc-citc-1321-course-syllabus" class="nav-link active" data-scroll-target="#citc-1321-course-syllabus">CITC 1321 Course Syllabus</a>
+  <ul class="collapse">
+  <li><a href="#catalog-course-description" id="toc-catalog-course-description" class="nav-link" data-scroll-target="#catalog-course-description">Catalog Course Description</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisite(s)</a></li>
+  <li><a href="#textbooks-and-other-course-materials" id="toc-textbooks-and-other-course-materials" class="nav-link" data-scroll-target="#textbooks-and-other-course-materials">Textbook(s) and Other Course Materials</a></li>
+  <li><a href="#week-unit-topic" id="toc-week-unit-topic" class="nav-link" data-scroll-target="#week-unit-topic">Week-Unit-Topic</a></li>
+  <li><a href="#discipline-learning-outcomes-program-learning-outcomes-or-tbr-general-education-outcomes" id="toc-discipline-learning-outcomes-program-learning-outcomes-or-tbr-general-education-outcomes" class="nav-link" data-scroll-target="#discipline-learning-outcomes-program-learning-outcomes-or-tbr-general-education-outcomes">Discipline Learning Outcomes, Program Learning Outcomes, or TBR General Education Outcomes</a>
+  <ul class="collapse">
+  <li><a href="#computer-information-technology-program-learning-outcomes" id="toc-computer-information-technology-program-learning-outcomes" class="nav-link" data-scroll-target="#computer-information-technology-program-learning-outcomes">Computer Information Technology Program Learning Outcomes</a></li>
+  </ul></li>
+  <li><a href="#expected-student-learning-outcomes" id="toc-expected-student-learning-outcomes" class="nav-link" data-scroll-target="#expected-student-learning-outcomes">Expected Student Learning Outcomes</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a>
+  <ul class="collapse">
+  <li><a href="#testing-procedures-50-of-grade" id="toc-testing-procedures-50-of-grade" class="nav-link" data-scroll-target="#testing-procedures-50-of-grade">Testing Procedures: 50% of Grade</a></li>
+  <li><a href="#laboratory-expectations-45-of-grade" id="toc-laboratory-expectations-45-of-grade" class="nav-link" data-scroll-target="#laboratory-expectations-45-of-grade">Laboratory Expectations: 45% of Grade</a></li>
+  <li><a href="#field-work-na" id="toc-field-work-na" class="nav-link" data-scroll-target="#field-work-na">Field Work:&nbsp;N/A</a></li>
+  <li><a href="#other-evaluation-methods-5-of-grade" id="toc-other-evaluation-methods-5-of-grade" class="nav-link" data-scroll-target="#other-evaluation-methods-5-of-grade">Other Evaluation Methods: 5% of Grade</a></li>
+  </ul></li>
+  <li><a href="#college-policies" id="toc-college-policies" class="nav-link" data-scroll-target="#college-policies">College Policies</a>
+  <ul class="collapse">
+  <li><a href="#syllabus-revision" id="toc-syllabus-revision" class="nav-link" data-scroll-target="#syllabus-revision">Syllabus Revision</a></li>
+  <li><a href="#attendance-policy" id="toc-attendance-policy" class="nav-link" data-scroll-target="#attendance-policy">Attendance Policy</a></li>
+  <li><a href="#academic-misconduct" id="toc-academic-misconduct" class="nav-link" data-scroll-target="#academic-misconduct">Academic Misconduct</a></li>
+  <li><a href="#accommodations-for-students-with-disabilities" id="toc-accommodations-for-students-with-disabilities" class="nav-link" data-scroll-target="#accommodations-for-students-with-disabilities">Accommodations for Students with Disabilities</a></li>
+  <li><a href="#grade-appeal" id="toc-grade-appeal" class="nav-link" data-scroll-target="#grade-appeal">Grade Appeal</a></li>
+  <li><a href="#non-discrimination-statement" id="toc-non-discrimination-statement" class="nav-link" data-scroll-target="#non-discrimination-statement">Non-Discrimination Statement</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Course Syllabus</h1>
+<p class="subtitle lead">CITC 1321 A+ Hardware</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Chuck Nelson </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="citc-1321-course-syllabus" class="level1">
+<h1>CITC 1321 Course Syllabus</h1>
+<p>A+ Hardware<br>
+CITC&nbsp;1321</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Class Hours</th>
+<th style="text-align: center;">Credit Hours</th>
+<th style="text-align: center;">Laboratory Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table>
+<section id="catalog-course-description" class="level2">
+<h2 class="anchored" data-anchor-id="catalog-course-description">Catalog Course Description</h2>
+<p>This course provides an introduction to basics of computer hardware. Topics include identification and installation of internal components, disk configuration, ports, cables, peripherals and networking concepts and connections.</p>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisite(s)</h2>
+<p>ACT Reading score of 19 or satisfactory placement scores or completion of Learning Support Reading</p>
+</section>
+<section id="textbooks-and-other-course-materials" class="level2">
+<h2 class="anchored" data-anchor-id="textbooks-and-other-course-materials">Textbook(s) and Other Course Materials</h2>
+<p><strong>Required:</strong>&nbsp;</p>
+<p>No printed textbook is required for this class. We will use Cengage online materials and you’ll need access to the Cengage Mindtap products.</p>
+<p><strong>COURSE TECHNOLOGY NEEDS</strong></p>
+<p>Students should keep the following requirements in mind when selecting a computer to use during their Computer Information Technology program at PSCC. Systems purchased within the past two years will typically come with the following recommended specifications.&nbsp;</p>
+<p><strong>Hardware Requirements</strong>:</p>
+<ul>
+<li>256 GB SSD</li>
+<li>16 GB RAM</li>
+<li>Intel or AMD x86-64 CPU, at least Quad Core</li>
+<li>Broadband internet connection</li>
+<li>Microsoft Windows 11</li>
+<li>If online synchronous, a webcam and mic</li>
+</ul>
+<p><strong>External Storage Requirements:</strong></p>
+<ul>
+<li>128GB (or larger) USB 3.0 (or higher) flash drive</li>
+</ul>
+</section>
+<section id="week-unit-topic" class="level2">
+<h2 class="anchored" data-anchor-id="week-unit-topic">Week-Unit-Topic</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Week</th>
+<th style="text-align: left;">Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Pre-Assessment and setting the stage for the course. MindTap, MS Teams access, etc.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Module 1: Taking a Computer Apart and Putting it Back Together</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Module 2: All About Motherboards Part 1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Module 2: All About Motherboards Part 2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Module 3: Supporting Processors and Upgrading Memory</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Module 4: Supporting the Power System and Troubleshooting Computers Part 1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">Module 4: Supporting the Power System and Troubleshooting Computers Part 2 – EXAM 1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">Module 5: Supporting Hard Drives and Other Storage Devices</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">Module 6: Supporting I/O Devices – EXAM 2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">Module 7: Setting Up a Local Network</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td style="text-align: left;">Module 8: Network Infrastructure and Troubleshooting</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">Module 9: Supporting Mobile Devices - EXAM 3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;">Module 10: Virtualization, Cloud Computing</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;">Printers. Installation, maintenance and troubleshooting</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;">EXAM 4 and Post Assessment Quiz</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="discipline-learning-outcomes-program-learning-outcomes-or-tbr-general-education-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="discipline-learning-outcomes-program-learning-outcomes-or-tbr-general-education-outcomes">Discipline Learning Outcomes, Program Learning Outcomes, or TBR General Education Outcomes</h2>
+<section id="computer-information-technology-program-learning-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="computer-information-technology-program-learning-outcomes">Computer Information Technology Program Learning Outcomes</h3>
+<ol type="1">
+<li>Apply professional&nbsp;written or oral communication&nbsp;processes&nbsp;within&nbsp;an&nbsp;individual or team-based&nbsp;business&nbsp;environment.&nbsp;&nbsp;</li>
+<li>Demonstrate proficiency in the use of&nbsp;computers, related equipment,&nbsp;and resources which are real-world&nbsp;based&nbsp;and represent current and emerging trends in the&nbsp;information technology&nbsp;employment field.&nbsp;</li>
+<li>Apply terminology&nbsp;and&nbsp;numeric or system concepts associated with the information technology field.&nbsp;</li>
+<li>Demonstrate the use&nbsp;of&nbsp;appropriate&nbsp;current application&nbsp;or&nbsp;system software.&nbsp;</li>
+<li>Implement solutions in a computer&nbsp;programming or scripting&nbsp;language.&nbsp;&nbsp;</li>
+<li>Demonstrate the process of planning,&nbsp;implementing, maintaining, and troubleshooting a computer&nbsp;system&nbsp;environment.&nbsp;</li>
+</ol>
+</section>
+</section>
+<section id="expected-student-learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="expected-student-learning-outcomes">Expected Student Learning Outcomes</h2>
+<p>Note: Roman numerals after the Expected Student Learning Outcomes reference the Program Learning Outcomes listed above.</p>
+<p>The students will:</p>
+<ol type="1">
+<li>Identify hardware and basic network components that support current computing needs. (III, VI)</li>
+<li>Install hardware and basic network components that support current computing needs. (II, VI)</li>
+<li>Troubleshoot hardware and basic network components that support current computing needs. (II, III, VI)</li>
+<li>Configure hardware and basic network components that support current computing needs. (II, III, V, VI)</li>
+<li>Demonstrate appropriate computer service communication and professional skills. (I, II, III, VI)</li>
+<li>Demonstrate appropriate operational procedures related to current computing hardware needs. (I, II, III, VI)</li>
+</ol>
+</section>
+<section id="evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
+<section id="testing-procedures-50-of-grade" class="level3">
+<h3 class="anchored" data-anchor-id="testing-procedures-50-of-grade">Testing Procedures: 50% of Grade</h3>
+<p>There will be a minimum of four (4) exams. An exam may be administered after each chapter has been covered in the course. &nbsp;There will be&nbsp;<strong>NO</strong>&nbsp;make-up tests unless prior arrangements are made with the instructor for valid extraordinary circumstances beyond the student’s control.</p>
+</section>
+<section id="laboratory-expectations-45-of-grade" class="level3">
+<h3 class="anchored" data-anchor-id="laboratory-expectations-45-of-grade">Laboratory Expectations: 45% of Grade</h3>
+<p>Lab attendance is required. &nbsp;Assignments must be completed and submitted before the assigned deadline. This is a coordinated lecture-laboratory class, and assignments must be completed as scheduled. Laboratory grade includes a combination of homework as assigned.</p>
+</section>
+<section id="field-work-na" class="level3">
+<h3 class="anchored" data-anchor-id="field-work-na">Field Work:&nbsp;N/A</h3>
+</section>
+<section id="other-evaluation-methods-5-of-grade" class="level3">
+<h3 class="anchored" data-anchor-id="other-evaluation-methods-5-of-grade">Other Evaluation Methods: 5% of Grade</h3>
+<p>Students will be required to work together in team project.</p>
+</section>
+</section>
+<section id="college-policies" class="level2">
+<h2 class="anchored" data-anchor-id="college-policies">College Policies</h2>
+<section id="syllabus-revision" class="level3">
+<h3 class="anchored" data-anchor-id="syllabus-revision">Syllabus Revision</h3>
+<p>The course syllabus sets forth the expectations for the course content, work, and grading as well as expectations for student performance and conduct. The syllabus does not constitute a contract between the student and the instructor or the College. The information contained in the syllabus is subject to change at any time. Students will be notified if any changes are made. Though changes are possible, it is expected that the course will be conducted as described in the syllabus.</p>
+</section>
+<section id="attendance-policy" class="level3">
+<h3 class="anchored" data-anchor-id="attendance-policy">Attendance Policy</h3>
+<p>Students are expected to attend and participate in all scheduled class, laboratory, or clinical sessions. Absences result in missed learning opportunities, lower grades, and, in many cases, failure for the course. Prompt and regular attendance enhances the likelihood of student achievement while also instilling habits that will prepare graduates for success in the workplace.</p>
+<p>Each course syllabus will specify attendance requirements and the specific academic consequences entailed by those requirements.</p>
+<p>Financial Aid recipients are responsible for meeting attendance requirements for institutional, State and Federal Aid in order to maintain eligibility.</p>
+<p>Please see Pellissippi State Policy 03:11:01, Academic Standards, for the complete policy.</p>
+</section>
+<section id="academic-misconduct" class="level3">
+<h3 class="anchored" data-anchor-id="academic-misconduct">Academic Misconduct</h3>
+<p>Academic misconduct committed either directly or indirectly by an individual or group is subject to disciplinary action. Prohibited activities include but are not limited to the following practices:</p>
+<ul>
+<li>Cheating, including but not limited to unauthorized assistance from material, people, or devices when taking a test, quiz, or examination; writing papers or reports; solving problems; or completing academic assignments.</li>
+<li>Plagiarism, including but not limited to paraphrasing, summarizing, or directly quoting published or unpublished work of another person, including online or computerized services, without proper documentation of the original source.</li>
+<li>Purchasing or otherwise obtaining prewritten essays, research papers, or materials prepared by another person or agency that sells term papers or other academic materials to be presented as one’s own work.</li>
+<li>Taking an exam for another student.</li>
+<li>Providing others with information and/or answers regarding exams, quizzes, homework or other classroom assignments unless explicitly authorized by the instructor.</li>
+<li>Any of the above occurring within the Web or distance learning environment.</li>
+</ul>
+<p>Please see the Pellissippi State Policy 04:02:00, Academic/Classroom Conduct and Disciplinary Sanctions for the complete policy.</p>
+</section>
+<section id="accommodations-for-students-with-disabilities" class="level3">
+<h3 class="anchored" data-anchor-id="accommodations-for-students-with-disabilities">Accommodations for Students with Disabilities</h3>
+<p>Students that need accommodations because of a disability, have emergency medical information to share, or need special arrangements in case the building must be evacuated should inform the instructor immediately, privately after class or in her or his office. Students must present a current accommodation plan from a staff member in Disability Services (DS) in order to receive accommodations in this course. Disability Services may be contacted via Disability Services email or by visiting Alexander 130.</p>
+</section>
+<section id="grade-appeal" class="level3">
+<h3 class="anchored" data-anchor-id="grade-appeal">Grade Appeal</h3>
+<p>A student may only appeal a final grade if one or more of the following conditions exist:</p>
+<ul>
+<li><p>Error in the calculation of the grade</p></li>
+<li><p>Substantial deviation from the syllabus</p></li>
+<li><p>Clear violation of Pellissippi State Community College and/or the Tennessee Board of Regents policies.</p></li>
+</ul>
+<p>Students have a right to a clear explanation (from the instructor or dean, as appropriate) of actions taken by the instructor, such as how a grade was calculated. An appeal will not be considered because of general dissatisfaction with a grade, penalty, or outcome of a course. Disagreement with the instructor’s professional judgement of the quality of the student’s work and performance is also not an admissible basis for an academic appeal.</p>
+<p>The first step in any appeal is to discuss the situation with the instructor. If no resolution is reached, the student’s next step is to consult the dean of the academic department, who may continue the informal process of discussion and/or may inform the student of the process for a formal appeal.</p>
+<p>Please see Pellissippi State Policy 03:11:01, Academic Standards, for the complete policy.</p>
+</section>
+<section id="non-discrimination-statement" class="level3">
+<h3 class="anchored" data-anchor-id="non-discrimination-statement">Non-Discrimination Statement</h3>
+<p>Pellissippi State affirms that it will not tolerate discrimination or harassment against any employee or applicant for employment because of race, color, religion, creed, ethnic or national origin, sex, pregnancy, disability, age (40+), status as a covered veteran, genetic information, nor any other category protected by federal or state civil rights law related to the College.</p>
+<p>Similarly, the College will not subject any student to discrimination or harassment under any educational program and no student shall be discriminatorily excluded from participation nor denied the benefits of any educational program on the basis of race, color, religion, creed, ethnic or national origin, sex, pregnancy, disability, age (40+), status as a covered veteran, genetic information, or other category protected by federal or state civil rights law related to the College.</p>
+<p>Any Pellissippi State employee, applicant, or student who has reason to feel that they have been harassed or affected by discrimination, or who has any other concerns or questions about equal opportunity, should contact the following:</p>
+<p><strong>Executive Director of Institutional Compliance</strong> <em>Title IX Coordinator/Equity Officer/Title VI Officer/ADA Officer/</em> Pellissippi State Community College Goins Administration Building, Room 258 10915 Hardin Valley Road P.O. Box 22990 Knoxville, TN 37933-0990 Office: <a href="tel:18655397354">(865) 539-7354</a></p>
+<p>Questions about services and facilities for students with disabilities should be directed to the following:</p>
+<p><strong>Director of Disability Services</strong> Pellissippi State Community College Lamar Alexander Building, Room AL 136 10915 Hardin Valley Road P.O. Box 22990 Knoxville, TN 37933-0990</p>
+<p>For questions or concerns, please contact George Underwood at <a href="mailto:gtunderwood@pstcc.edu">gtunderwood@pstcc.edu</a> or <a href="tel:18655397354">865-539-7354</a></p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

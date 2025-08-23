@@ -1,0 +1,227 @@
+---
+title: "Introduction"
+subtitle: "CITC 132: A+ Hardware"
+author: "Chuck Nelson"
+format:
+  revealjs:
+    # self-contained: true
+    theme: [simple]
+    slide-number: c/t 
+    chalkboard: false
+    css: ../css/quarto-pstcc.css
+    include-in-header: 
+      text: |
+        <style>
+        .center-xy {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+        </style>
+editor: source
+output-dir: ../srv
+output-file: 01_Introduction.html
+---
+
+## Your Instructor
+
+-   Chuck Nelson
+-   Email: chnelson\@pstcc.edu
+-   Office Hours: Tuesday/Thursday 1200-1330 or by appointment
+-   Reach me on [Teams](https://teams.microsoft.com/meet/2686443596174?p=dAjVIeCQyaNLL8QItl)
+
+------------------------------------------------------------------------
+
+## Fun facts about Me
+
+-   Retired US Army Lieutenant Colonel
+-   Served in the USA, Europe, Middle East, Africa, Asia, and the Indo-Pacific
+-   Served on a United Nations Peackeeping Mission
+-   Worked in start-ups in San Francisco Bay Area
+-   PADI certified Rescue Diver
+-   FAA certified Private Pilot
+-   FCC certified Amateur Radio Technician
+
+------------------------------------------------------------------------
+
+## Educational History
+
+-   Undergraduate degree in Industrial Engineering
+-   Graduate degree in Computer Information Systems
+-   PhD studies in Information Assurance (ABD^‡^)
+-   US Army Computer Science School
+    -   Network and Software Systems Engineering
+-   Numerous military and civil sector courses
+
+------------------------------------------------------------------------
+
+## What you get from me
+
+-   Professional courtesy
+-   Career advice
+-   Tips for life long learning
+-   Motivation
+-   Mentoring
+-   Challenge your thinking
+-   Learning guide
+
+------------------------------------------------------------------------
+
+## Student Introductions
+
+-   Your Name
+-   Major/Minor
+-   When did you start studying at Pellissippi
+-   Why you're taking this course
+-   What you hope to learn
+-   Career goals
+
+------------------------------------------------------------------------
+
+## Course Syllabus
+
+-   Look in D2L Brightspace
+
+------------------------------------------------------------------------
+
+## Program Learning Outcomes
+
+1.  Apply professional written or oral communication processes within an individual or team-based business environment.  
+2.  Demonstrate proficiency in the use of computers, related equipment, and resources which are real-world based and represent current and emerging trends in the information technology employment field. 
+3.  Apply terminology and numeric or system concepts associated with the information technology field. 
+
+------------------------------------------------------------------------
+
+## Program Learning Outcomes (cont'd)
+
+4.  Demonstrate the use of appropriate current application or system software. 
+5.  Implement solutions in a computer programming or scripting language.  
+6.  Demonstrate the process of planning, implementing, maintaining, and troubleshooting a computer system environment. 
+
+------------------------------------------------------------------------
+
+## Course Learning Objectives
+
+1.  Identify hardware and basic network components that support current computing needs.
+2.  Install hardware and basic network components that support current computing needs.
+3.  Troubleshoot hardware and basic network components that support current computing needs.
+4.  Configure hardware and basic network components that support current computing needs.
+
+------------------------------------------------------------------------
+
+## Course Learning Objectives (cont'd)
+
+5.  Demonstrate appropriate computer service communication and professional skills.
+6.  Demonstrate appropriate operational procedures related to current computing hardware needs.
+
+------------------------------------------------------------------------
+
+## Hardware Requirements
+
+-   Home Computer
+    -   Ability to run a VM
+-   USB storage device
+    -   [PNY CS2230 1TB M.2 NVMe Internal Solid State Drive (SSD)](https://www.amazon.com/dp/B0BS1WWDQB)
+    -   [UGREEN 20Gbps M.2 NVMe SATA SSD Enclosure](https://www.amazon.com/dp/B0D2NHJT6T)
+-   School Computer
+
+------------------------------------------------------------------------
+
+## Software Requirements
+
+-   [Github](https://github.com/) with a personal account.
+-   [Google Gemini](https://gemini.google.com/) with a personal account.
+-   A markdown editor such as [Marktext](https://github.com/marktext/marktext).
+-   A variety of portable^†^ diagnostic tools TBD.
+
+------------------------------------------------------------------------
+
+## School Policies
+
+-   Academic Integrity
+-   Attendance
+-   Accommodations
+
+------------------------------------------------------------------------
+
+## My Classroom Rules
+
+-   Treat this like your workplace
+-   Everything has a business context
+-   Cooperate with your peers
+-   AI is not only accepted but expected
+-   Find your limits and ask for help
+-   Assist others when you can
+
+------------------------------------------------------------------------
+
+## Testing Procedures
+
+-   Exams:
+    -   Traditional exams
+    -   Non-traditional exams
+-   Project
+-   Make-up Policy: Work rules apply
+
+------------------------------------------------------------------------
+
+## Weekly Schedule {.smaller-table}
+
+|  |  |
+|:----------:|:-----------------------------------------------------------|
+| 1 | Pre-Assessment and setting the stage for the course. MindTap, MS Teams access, etc. |
+| 2 | Module 1: Taking a Computer Apart and Putting it Back Together |
+| 3 | Module 2: All About Motherboards Part 1 |
+| 4 | Module 2: All About Motherboards Part 2 |
+| 5 | Module 3: Supporting Processors and Upgrading Memory |
+| 6 | Module 4: Supporting the Power System and Troubleshooting Computers Part 1 |
+| 7 | Module 4: Supporting the Power System and Troubleshooting Computers Part 2 – EXAM 1 |
+| 8 | Module 5: Supporting Hard Drives and Other Storage Devices |
+| 9 | Module 6: Supporting I/O Devices – EXAM 2 |
+| 10 | Module 7: Setting Up a Local Network |
+| 11 | Module 8: Network Infrastructure and Troubleshooting |
+| 12 | Module 9: Supporting Mobile Devices - EXAM 3 |
+| 13 | Module 10: Virtualization, Cloud Computing |
+| 14 | Printers. Installation, maintenance and troubleshooting |
+| 15 | EXAM 4 and Post Assessment Quiz |
+
+------------------------------------------------------------------------
+
+## Course Project and Deliverables
+
+-   Project Stages:
+    -   Analysis of the problem
+    -   Draft Proposal
+    -   Final Proposal
+-   Deliverables:
+    -   Written proposal
+    -   Executive Summary
+    -   Presentation
+
+------------------------------------------------------------------------
+
+## Grading
+
+-   Traditional scoring on exams
+-   Labs are graded on GO/NO GO basis
+-   Writing quality
+-   Organizational skills
+-   Demonstrated critical thinking
+-   Adherance to safety standards
+
+------------------------------------------------------------------------
+
+## Question
+
+What is the most important thing you will learn in college?
+
+::: {.fragment .center-xy}
+Learn how to learn
+:::
+
+------------------------------------------------------------------------
+
+## Questions {.center}

@@ -1,0 +1,11 @@
+---
+title: "Video Resources"
+subtitle: Supplemental Video
+description: "Video resources to supplement the course material."
+author: Chuck Nelson
+listing:
+  contents: ./_videos.yml
+  type: default
+  template: videos.ejs
+---
+
