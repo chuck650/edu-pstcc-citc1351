@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'src/**'  # Only trigger when files in src/ change
 
 jobs:
   render:
@@ -17,12 +19,16 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render Quarto site
-        run: quarto render src/
+        run: |
+          echo "Rendering Quarto site from src/..."
+          quarto render src/
+        continue-on-error: false
 
       - name: Commit rendered site
         run: |
+          echo "Committing rendered site to docs/..."
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add docs/
-          git commit -m "Auto-render Quarto site"
+          git diff --cached --quiet || git commit -m "Auto-render Quarto site"
           git push
