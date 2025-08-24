@@ -46,6 +46,6 @@ jobs:
           echo "Committing rendered site to docs/..."
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add docs/
-          git diff --cached --quiet || git commit -m "Force add of Auto-render Quarto site" -f
+          git add -f docs/
+          git diff --cached --quiet || git commit -m "Force add of Auto-render Quarto site"
           git push
