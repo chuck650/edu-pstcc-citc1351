@@ -1,12 +1,12 @@
 project:
   type: website
   output-dir: ../docs
-
+  
 engines: ['julia']
 
 website:
   title: "CITC 1321: A+ Hardware"
-  favicon: images/QuartoWebsite.png
+  favicon: /images/QuartoWebsite.png
   navbar:
     background: primary
     search: true
@@ -39,6 +39,7 @@ format:
   html:
     theme:
       - cosmo
+      - litera
       - brand
     css: css/quarto-pstcc.css
     code-fold: true

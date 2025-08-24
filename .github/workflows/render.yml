@@ -33,8 +33,11 @@ jobs:
       - name: Render Quarto site
         run: |
           echo "Rendering Quarto site from src/..."
-          quarto render src/
+          quarto render src/ --verbose
         continue-on-error: false
+
+      - name: Create .nojekyll file
+        run: touch docs/.nojekyll
 
       - name: Commit rendered site
         run: |
