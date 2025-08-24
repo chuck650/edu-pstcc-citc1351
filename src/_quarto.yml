@@ -6,6 +6,7 @@ engines: ['julia']
 
 website:
   title: "CITC 1321: A+ Hardware"
+  site-url: "https://chuck650.github.io/edu-pstcc-citc1351"
   favicon: /images/QuartoWebsite.png
   navbar:
     background: primary
