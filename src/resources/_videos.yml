@@ -2,7 +2,52 @@
   description: "Here's how ChatGPT is slowly destroying your brain and learning ability, and what you can do to avoid this harm."
   video_id: "6sJ50Ybp44I"
   url: "https://www.youtube.com/watch?v=6sJ50Ybp44I"
-- title: "Quarto Video 2: Building a Website"
-  description: "Learn how to build a simple website with Quarto."
-  video_id: "l7r24gTEkEY"
-  url: "https://www.youtube.com/watch?v=l7r24gTEkEY"
+
+- title: "How Feedback Affects Performance"
+  url: "https://www.youtube.com/watch?v=V9ewjjzAlRs"
+  author: Andrew Huberman for After Skool
+  channel: https://www.youtube.com/@AfterSkool
+  video_id: "V9ewjjzAlRs"
+  description: "Neuroscientist Andrew Huberman explains how feedback influences learning and performance."
+
+- title: "How To Learn Anything So Fast It Feels Illegal (Evidence based)"
+  url: "https://www.youtube.com/watch?v=Z24Td5mtKOs"
+  author: Giles McMullen
+  channel: https://www.youtube.com/@gilesmcmullen
+  video_id: "Z24Td5mtKOs"
+  description: "Justin Sung shares evidence-based techniques for rapid learning."
+
+- title: "How To Learn Any Skill So Fast It Feels Illegal"
+  url: "https://www.youtube.com/watch?v=bSDprg24pEA"
+  author: Justin Sung
+  channel: https://www.youtube.com/@JustinSung
+  video_id: "bSDprg24pEA"
+  description: "Justin Sung shares evidence-based techniques for rapid learning."
+
+- title: "7 Proven Learning Hacks – Project Better Self"
+  url: "https://www.youtube.com/watch?v=tbkUOPloiHU"
+  author: The Skill Seekers
+  channel: https://www.youtube.com/@theskillseekerr
+  video_id: "tbkUOPloiHU"
+  description: "Seven practical strategies to accelerate your learning."
+
+- title: "Immanuel Kant's One Rule for Life"
+  url: "https://www.youtube.com/watch?v=0nz0iaNvVpE"
+  author: Mark Manson for After Skool
+  channel: https://www.youtube.com/@AfterSkool
+  video_id: "0nz0iaNvVpE"
+  description: "Mark Manson explores Kant’s moral philosophy and its relevance to personal growth."
+
+- title: "Why Intellectuals are F*cking Idiots"
+  url: "https://www.youtube.com/watch?v=dqs8D3xfxsc"
+  author: Mark Manson
+  channel: https://www.youtube.com/@IAmMarkManson
+  video_id: "dqs8D3xfxsc"
+  description: "Some people are brilliant. They’ve got degrees, write books, win awards, and go on TV to share their big ideas. But sometimes, being smart just means finding a complicated way to be wrong. In this video, I dive into the world of “intellectual idiots” - the people who build elaborate models of reality that crash and burn the moment they meet the real world."
+
+- title: "Why Smart People Believe Stupid Things"
+  url: "https://www.youtube.com/watch?v=5Peima-Uw7w"
+  author: Mark Manson for After Skool
+  channel: https://www.youtube.com/@AfterSkool
+  video_id: "5Peima-Uw7w"
+  description: "What causes Delusion? The prevailing view is that people adopt false beliefs because they’re too stupid or ignorant to grasp the truth. But just as often, the opposite is true: many delusions prey not on dim minds but on bright ones. And this has serious implications for education, society, and you personally."

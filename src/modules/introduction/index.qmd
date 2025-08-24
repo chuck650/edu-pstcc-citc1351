@@ -1,0 +1,9 @@
+---
+title: "Introduction"
+listing:
+  contents: 
+    - "./01_Introduction.qmd"
+    - "../../docs/CITC 1321 Course Syllabus.md"
+  type: default
+  sort: "None"
+---

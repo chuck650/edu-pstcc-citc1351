@@ -1,0 +1,31 @@
+<%
+// Get the video ID passed by the shortcode (e.g., {{< youtube_video uM-MqsWjQd4 >}})
+const videoId = props.args[0];
+
+// Use the .find() method to search the 'videos' array in the document's metadata
+// for a video object where the 'video_id' matches the one passed to the shortcode.
+const video = page.metadata.videos.find(v => v.video_id === videoId);
+
+// Only render the HTML if a matching video object is found
+if (video) {
+%>
+<div class="video-container">
+  <h2><a href="<%- video.url %>"><%= video.title %></a></h2>
+  <p><strong>Author:</strong> <%= video.author %> | <a href="<%- video.channel %>">View Channel</a></p>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/<%= video.video_id %>"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
+  <p><%= video.description %></p>
+</div>
+<%
+} else {
+  // Display an error message if no video is found with the given ID
+%>
+<p>Error: Video with ID "<%= videoId %>" not found in document metadata.</p>
+<%
+}
+%>

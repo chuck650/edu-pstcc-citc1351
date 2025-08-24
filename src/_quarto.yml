@@ -6,18 +6,34 @@ engines: ['julia']
 
 website:
   title: "CITC 1321: A+ Hardware"
+  favicon: images/QuartoWebsite.png
   navbar:
     background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
-      - text: Presentations
-        href: presentations/index.qmd
+        aria-label: Home
       - text: Documents
+        aria-label: Documents
         href: docs/index.qmd
-      - text: Resources
-        href: resources/index.qmd
+      - text: Learning
+        aria-label: Learning
+        href: learning/index.qmd
+      - text: Motivation
+        aria-label: Motivation
+        href: motivation/index.qmd
       - about.qmd
+  sidebar:
+    style: "floating"
+    contents:
+      - text: "Introduction"
+        aria-label: Introduction
+        href: modules/introduction/index.qmd
+      - section: "Modules"
+        aria-label: Modules
+        contents:
+          - modules/project/index.qmd
 
 format:
   html:
@@ -27,6 +43,3 @@ format:
     css: css/quarto-pstcc.css
     code-fold: true
     toc: true
-
-
-

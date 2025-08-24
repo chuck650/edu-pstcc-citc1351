@@ -1,0 +1,8 @@
+---
+title: "Course Project"
+listing:
+  contents:
+   - "./IT_Hardware_Proposal_Project.md"
+  type: default
+  sort: "None"
+---

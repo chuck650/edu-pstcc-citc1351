@@ -1,0 +1,6 @@
+---
+title: "Get Motivated"
+listing:
+  contents: "./*.qmd"
+  type: default
+---

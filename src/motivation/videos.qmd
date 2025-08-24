@@ -1,7 +1,6 @@
 ---
-title: "Video Resources"
-subtitle: Supplemental Video
-description: "Video resources to supplement the course material."
+title: "Motivational Videos"
+description: "Video that inspires and motivates you."
 author: Chuck Nelson
 listing:
   contents: ./_videos.yml

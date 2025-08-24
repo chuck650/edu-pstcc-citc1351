@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../images/QuartoWebsite.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -40,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b1527d6dab3c1d2528611d399e709420.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-2c2b2e643518224cf2d75a643cacf640.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-video_id','listing-url',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-description','listing-video_id','listing-url','listing-author','listing-channel',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-description","listing-video_id","listing-url"],
+      searchColumns: ["listing-title","listing-description","listing-video_id","listing-url","listing-author","listing-channel"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -134,7 +135,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../css/quarto-pstcc.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -156,16 +157,16 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../presentations/index.html"> 
-<span class="menu-text">Presentations</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../docs/index.html"> 
 <span class="menu-text">Documents</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
+    <a class="nav-link" href="../learning/index.html"> 
+<span class="menu-text">Learning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../motivation/index.html"> 
+<span class="menu-text">Motivation</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
@@ -177,10 +178,50 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Video Resources</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/introduction/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Modules</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/project/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course Project</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
@@ -235,12 +276,66 @@ Here’s how ChatGPT is slowly destroying your brain and learning ability, and w
 </div>
 <div class="video-container">
 <h2 class="anchored">
-<a href="https://www.youtube.com/watch?v=l7r24gTEkEY">Quarto Video 2: Building a Website</a>
+<a href="https://www.youtube.com/watch?v=V9ewjjzAlRs">How Feedback Affects Performance</a>
 </h2>
 <p>
-Learn how to build a simple website with Quarto.
+Neuroscientist Andrew Huberman explains how feedback influences learning and performance.
 </p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/l7r24gTEkEY" frameborder="0" allowfullscreen=""></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/V9ewjjzAlRs" frameborder="0" allowfullscreen=""></iframe></p>
+</div>
+<div class="video-container">
+<h2 class="anchored">
+<a href="https://www.youtube.com/watch?v=Z24Td5mtKOs">How To Learn Anything So Fast It Feels Illegal (Evidence based)</a>
+</h2>
+<p>
+Justin Sung shares evidence-based techniques for rapid learning.
+</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Z24Td5mtKOs" frameborder="0" allowfullscreen=""></iframe></p>
+</div>
+<div class="video-container">
+<h2 class="anchored">
+<a href="https://www.youtube.com/watch?v=bSDprg24pEA">How To Learn Any Skill So Fast It Feels Illegal</a>
+</h2>
+<p>
+Justin Sung shares evidence-based techniques for rapid learning.
+</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/bSDprg24pEA" frameborder="0" allowfullscreen=""></iframe></p>
+</div>
+<div class="video-container">
+<h2 class="anchored">
+<a href="https://www.youtube.com/watch?v=tbkUOPloiHU">7 Proven Learning Hacks – Project Better Self</a>
+</h2>
+<p>
+Seven practical strategies to accelerate your learning.
+</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/tbkUOPloiHU" frameborder="0" allowfullscreen=""></iframe></p>
+</div>
+<div class="video-container">
+<h2 class="anchored">
+<a href="https://www.youtube.com/watch?v=0nz0iaNvVpE">Immanuel Kant’s One Rule for Life</a>
+</h2>
+<p>
+Mark Manson explores Kant’s moral philosophy and its relevance to personal growth.
+</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/0nz0iaNvVpE" frameborder="0" allowfullscreen=""></iframe></p>
+</div>
+<div class="video-container">
+<h2 class="anchored">
+<a href="https://www.youtube.com/watch?v=dqs8D3xfxsc">Why Intellectuals are F*cking Idiots</a>
+</h2>
+<p>
+Some people are brilliant. They’ve got degrees, write books, win awards, and go on TV to share their big ideas. But sometimes, being smart just means finding a complicated way to be wrong. In this video, I dive into the world of “intellectual idiots” - the people who build elaborate models of reality that crash and burn the moment they meet the real world.
+</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dqs8D3xfxsc" frameborder="0" allowfullscreen=""></iframe></p>
+</div>
+<div class="video-container">
+<h2 class="anchored">
+<a href="https://www.youtube.com/watch?v=5Peima-Uw7w">Why Smart People Believe Stupid Things</a>
+</h2>
+<p>
+What causes Delusion? The prevailing view is that people adopt false beliefs because they’re too stupid or ignorant to grasp the truth. But just as often, the opposite is true: many delusions prey not on dim minds but on bright ones. And this has serious implications for education, society, and you personally.
+</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/5Peima-Uw7w" frameborder="0" allowfullscreen=""></iframe></p>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->

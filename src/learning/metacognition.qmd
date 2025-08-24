@@ -1,0 +1,125 @@
+---
+title: "Understanding Metacognition: Learning How to Learn"
+format: html
+editor: visual
+videos:
+  - title: "How To Learn Anything So Fast It Feels Illegal (Evidence based)"
+    url: "https://www.youtube.com/watch?v=Z24Td5mtKOs"
+    author: Giles McMullen
+    channel: https://www.youtube.com/@gilesmcmullen
+    video_id: "Z24Td5mtKOs"
+    description: "Justin Sung shares evidence-based techniques for rapid learning."
+
+  - title: "7 Proven Learning Hacks – Project Better Self"
+    url: "https://www.youtube.com/watch?v=tbkUOPloiHU"
+    author: The Skill Seekers
+    channel: https://www.youtube.com/@theskillseekerr
+    video_id: "tbkUOPloiHU"
+    description: "Seven practical strategies to accelerate your learning."
+
+  - title: "How To Learn Any Skill So Fast It Feels Illegal"
+    url: "https://www.youtube.com/watch?v=bSDprg24pEA"
+    author: Justin Sung
+    channel: https://www.youtube.com/@JustinSung
+    video_id: "bSDprg24pEA"
+    description: "Justin Sung shares evidence-based techniques for rapid learning."
+
+  - title: "How Feedback Affects Performance"
+    url: "https://www.youtube.com/watch?v=V9ewjjzAlRs"
+    author: Andrew Huberman for After Skool
+    channel: https://www.youtube.com/@AfterSkool
+    video_id: "V9ewjjzAlRs"
+    description: "Neuroscientist Andrew Huberman explains how feedback influences learning and performance."
+---
+
+# Metacognition: Learning How to Learn
+
+> *“The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.”* — Brian Herbert
+
+## Introduction
+
+Metacognition—thinking about your own thinking—is one of the most powerful tools you can develop as a student. It helps you become aware of how you learn, recognize when you're struggling, and adjust your strategies to improve your understanding and performance.
+
+This handout will help you understand what metacognition is, why it matters, and how you can apply it to become a more effective, resilient, and independent learner.
+
+## Learning Objectives
+
+By the end of this handout, you should be able to:
+
+-   Define metacognition and explain its importance.
+-   Identify personal learning strategies that work best for you.
+-   Apply metacognitive techniques to improve study habits and academic performance.
+-   Reflect on your learning process and make adjustments when needed.
+
+------------------------------------------------------------------------
+
+## Why Metacognition Matters
+
+### 1. The Information Landscape is Ever-Changing
+
+-   **Facts evolve:** What you learn today may be outdated tomorrow.
+-   **New fields emerge:** Staying relevant means continuously learning.
+-   **Lifelong learning is essential:** Metacognition prepares you to learn anything, anytime.
+
+### 2. College Teaches *How* to Think, Not Just *What* to Think
+
+-   **Critical Thinking:** Analyze, evaluate, and apply information.
+-   **Problem-Solving:** Break down complex problems and learn what you need to solve them.
+
+### 3. Efficiency and Effectiveness in Study
+
+-   **Personalized Strategies:** Discover what works for *you*—active recall, spaced repetition, teaching others, etc.
+-   **Time Management:** Prioritize tasks and manage your study time wisely.
+-   **Self-Regulation:** Monitor your understanding and adapt when needed.
+
+### 4. Adaptability and Resilience
+
+-   **Challenge-ready:** Use your learning toolkit to tackle difficult subjects and assignments.
+-   **Career-ready:** Adapt quickly to new roles, technologies, and expectations.
+
+### 5. Empowerment and Autonomy
+
+-   **Self-directed learning:** Take control of your education.
+-   **Confidence:** Build self-efficacy and motivation through awareness of your learning process.
+
+------------------------------------------------------------------------
+
+## Reflection Prompts
+
+Try answering these questions in a journal or discussion post:
+
+-   What study strategies have worked best for you in the past? Why?
+-   When do you notice yourself struggling to understand something? What do you do next?
+-   How do you know when you've truly learned something?
+-   What changes can you make to your current study habits to improve your learning?
+
+------------------------------------------------------------------------
+
+## Resources for Learning How to Learn
+
+### Videos
+
+Here are some videos about learning techniques and strategies:
+
+{{< youtube_video Z24Td5mtKOs >}}
+
+{{< youtube_video tbkUOPloiHU >}}
+
+{{< youtube_video bSDprg24pEA >}}
+
+{{< youtube_video V9ewjjzAlRs >}}
+
+
+------------------------------------------------------------------------
+
+## Further Reading
+
+-   Ambrose, S. A., et al. (2010). *How Learning Works: Seven Research-Based Principles for Smart Teaching*. Jossey-Bass.
+-   Dunlosky, J., et al. (2013). *Improving Students’ Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology*. Psychological Science in the Public Interest.
+-   Flavell, J. H. (1979). *Metacognition and Cognitive Monitoring: A New Area of Cognitive–Developmental Inquiry*. American Psychologist.
+
+------------------------------------------------------------------------
+
+## Final Thought
+
+College gives you knowledge, but metacognition gives you the power to keep learning long after graduation. The ability to learn how to learn is the ultimate academic superpower.

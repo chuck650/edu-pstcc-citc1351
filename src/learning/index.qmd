@@ -1,5 +1,5 @@
 ---
-title: "Presentations"
+title: "All about Learning"
 listing:
   contents: "."
   type: default

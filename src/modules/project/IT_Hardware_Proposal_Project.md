@@ -1,5 +1,5 @@
 ---
-title: "Course Project"
+title: "Project Description"
 subtitle: Hardware Proposal
 description: Describes the scope and requirements for the hardware proposal project.
 author: "Chuck Nelson"
@@ -95,15 +95,15 @@ You will submit a **written proposal** that includes the following sections:
 
 ## Grading Rubric (100 Points Total)
 
-| Criteria                    | Points |
-|----------------------------|--------|
-| Executive Summary          | 10     |
-| Needs Analysis             | 15     |
-| Hardware Recommendations   | 25     |
-| Alternatives & Justification | 15   |
-| Final Recommendation       | 15     |
-| Budget Breakdown           | 10     |
-| Professional Formatting    | 10     |
+| Criteria                     | Points |
+|:-----------------------------|:------:|
+| Executive Summary            | 10     |
+| Needs Analysis               | 15     |
+| Hardware Recommendations     | 25     |
+| Alternatives & Justification | 15     |
+| Final Recommendation         | 15     |
+| Budget Breakdown             | 10     |
+| Professional Formatting      | 10     |
 
 ---
 
