@@ -1,0 +1,7 @@
+---
+title: "Course Project"
+listing:
+  contents: "."
+  type: default
+  sort: "None"
+---
