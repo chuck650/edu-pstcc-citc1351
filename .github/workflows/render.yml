@@ -30,14 +30,14 @@ jobs:
           echo "Operating System: $(uname -a)"
           echo "Lua Version: $(lua -v)"
 
+      - name: Create .nojekyll file
+        run: touch docs/.nojekyll
+
       - name: Render Quarto site
         run: |
           echo "Rendering Quarto site from src/..."
           quarto render src/ --verbose
         continue-on-error: false
-
-      - name: Create .nojekyll file
-        run: touch docs/.nojekyll
 
       - name: Commit rendered site
         run: |
@@ -47,3 +47,4 @@ jobs:
           git add docs/
           git diff --cached --quiet || git commit -m "Auto-render Quarto site"
           git push
+
