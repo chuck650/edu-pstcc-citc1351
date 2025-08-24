@@ -2,14 +2,14 @@ name: Render Quarto Site
 
 on:
   push:
-
     branches:
       - main
     paths:
       - 'src/**'  # Only trigger when files in src/ change
+  workflow_dispatch:
+
 
 jobs:
-  workflow_dispatch:
   render:
     runs-on: ubuntu-latest
 
@@ -47,5 +47,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add docs/
-          git diff --cached --quiet || git commit -m "Auto-render Quarto site"
+          git diff --cached --quiet || git commit -m "Force add of Auto-render Quarto site" -f
           git push
