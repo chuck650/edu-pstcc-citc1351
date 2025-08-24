@@ -2,12 +2,14 @@ name: Render Quarto Site
 
 on:
   push:
+
     branches:
       - main
     paths:
       - 'src/**'  # Only trigger when files in src/ change
 
 jobs:
+  workflow_dispatch:
   render:
     runs-on: ubuntu-latest
 
@@ -47,4 +49,3 @@ jobs:
           git add docs/
           git diff --cached --quiet || git commit -m "Auto-render Quarto site"
           git push
-
