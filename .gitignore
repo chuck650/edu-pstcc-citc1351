@@ -1,4 +1,4 @@
-docs/
-
+/docs/
 /.luarc.json
 .quarto/
+/_site/

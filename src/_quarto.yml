@@ -1,10 +1,10 @@
 project:
   type: website
-  output-dir: ../docs
+  output-dir: ../_site
 
 execute:
   freeze: auto
-    
+
 engines: ['julia']
 
 website:
@@ -48,3 +48,6 @@ format:
     css: css/quarto-pstcc.css
     code-fold: true
     toc: true
+
+extensions:
+  - _extensions/youtube_video.lua

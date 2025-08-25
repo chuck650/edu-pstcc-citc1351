@@ -37,6 +37,15 @@ git commit --allow-empty -m "Initialising gh-pages branch"
 git push origin gh-pages
 ```
 
+Ensure any current or future R, Python, or Julia code is only executed locally.  Ensure this  snippet is in the `/.quarto.yml` file.
+
+```yaml
+execute:
+  freeze: auto
+```
+
+
+
 ## Custom Quarto extensions
 
 ### The `youtube_video` Extension for Quarto
