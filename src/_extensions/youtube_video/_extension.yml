@@ -1,8 +1,8 @@
-title: Custom Extensions
+title: YouTube Video
 author: Chuck Nelson
 version: 1.0.0
 quarto-required: ">=1.7.0"
 contributes:
   shortcodes:
-    - youtube_video.lua
+    - ./youtube_video.lua
 

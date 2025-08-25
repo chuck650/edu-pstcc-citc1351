@@ -1,7 +1,7 @@
 ---
 title: "Course Project"
 listing:
-  contents: "."
+  contents: []
   type: default
   sort: "None"
 ---

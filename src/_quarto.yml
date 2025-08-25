@@ -49,5 +49,6 @@ format:
     code-fold: true
     toc: true
 
-extensions:
-  - _extensions/youtube_video.lua
+shortcodes:
+  - ./_extensions/youtube_video/youtube_video.lua
+

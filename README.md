@@ -44,17 +44,50 @@ execute:
   freeze: auto
 ```
 
+Before configuring the publishing action, it’s important that you run `quarto publish gh-pages` locally, once. This will create the _publish.yml configuration required by the subsequent invocations of the GitHub Action. To do this, run the following from within your project:
+
+```sh
+quarto publish gh-pages src/
+```
 
 
 ## Custom Quarto extensions
 
-### The `youtube_video` Extension for Quarto
+There are several types of extensions you can create for Quarto.  Shotcodes are one type of extension.
+
+### The `youtube_video` shortcode for Quarto
 
 This extension provides a way to embed YouTube videos in your Quarto documents using a shortcode.  It retrieves video metadata (title, author, description, etc.) from a YAML file or document metadata and generates the necessary HTML to embed the video.
 
-### Installing
+#### Creating the shortcode
 
-To install the extension, run the following command in your Quarto project directory:
+See:
+
+- https://quarto.org/docs/extensions/shortcodes.html
+- https://quarto.org/docs/extensions/distributing.html
+
+Create the shortcode by running this command and following the prompts.
+
+```sh
+quarto create extension shortcode
+```
+
+Once the scaffolding is ready, modify the lua script to create the required functionality.
+
+#### Configure for publishing
+
+Using `quarto create extension shortcode` will create the `_extensions` directory tree for the shortcode and allows the render process to proceed normally and servicn the site from the local render target will work.  However, publishing will generally yield a Warning messag and result in a site that fails on use of the shortcode.  To ensure the shortcode is available on published sites, add this to the `_quarto.yml` file.
+
+```yaml
+shortcodes:
+  - ./_extensions/youtube_video/youtube_video.lua
+```
+
+#### Installing
+
+The short code can be separately created and resie within it's own github repo for distribution to other projects.
+
+To install the extension from a GitHub repository, run the following command in your Quarto project directory:
 
 ```bash
 quarto add chuck650/youtube_video
@@ -62,6 +95,8 @@ quarto add chuck650/youtube_video
 
 This will install the extension under the `_extensions` subdirectory.
 If you're using version control, you will want to check in this directory.
+
+The extension can also be packaged in a zip or tar file and installed from the archive file directly.
 
 ### Using
 
