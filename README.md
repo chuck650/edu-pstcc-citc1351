@@ -6,7 +6,40 @@ The project includes a github workflow task to render the site when the changes 
 
 You can veiw the rendered site at [https://chuck650.github.io/edu-pstcc-citc1351/](https://chuck650.github.io/edu-pstcc-citc1351/).
 
-## The `youtube_video` Extension for Quarto
+## Rendering
+
+All the  site resources are in the `src/` folder.  Render the site using the VSCode build task or directly in the terminal from the project rood like this.
+
+```sh
+quarto render src/
+```
+
+Verbose debugging output can help with troubleshooting rending problems.
+
+```sh
+quarto render src/ --verbose
+```
+
+## Testing
+
+Test the rendered site using the LiveServer extension inside of VSCode.  The site needs to be served over HTTP and accessed using the `http://` or `https://` protocol, not just viewed in a browser using the `file://` local file system access protocol
+
+## Deploy to GitHub Pages
+
+See https://quarto.org/docs/publishing/github-pages.html.
+
+Prepare for deployment by creating an orphan branch for deployments.
+
+```sh
+git checkout --orphan gh-pages
+git reset --hard # make sure all changes are committed before running this!
+git commit --allow-empty -m "Initialising gh-pages branch"
+git push origin gh-pages
+```
+
+## Custom Quarto extensions
+
+### The `youtube_video` Extension for Quarto
 
 This extension provides a way to embed YouTube videos in your Quarto documents using a shortcode.  It retrieves video metadata (title, author, description, etc.) from a YAML file or document metadata and generates the necessary HTML to embed the video.
 

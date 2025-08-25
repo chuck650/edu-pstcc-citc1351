@@ -1,7 +1,10 @@
 project:
   type: website
   output-dir: ../docs
-  
+
+execute:
+  freeze: auto
+    
 engines: ['julia']
 
 website:
