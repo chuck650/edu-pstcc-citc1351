@@ -1,11 +1,11 @@
 name: Render Quarto Site
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/**'  # Only trigger when files in src/ change
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'src/**'  # Only trigger when files in src/ change
   workflow_dispatch:
 
 
